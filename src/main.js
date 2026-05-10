@@ -1,5 +1,3 @@
-import './style.css';
-
 const teamData = {
   otago: [
     { name: 'Dr Jo Nunnerley', email: 'jo.nunnerley@otago.ac.nz' },
