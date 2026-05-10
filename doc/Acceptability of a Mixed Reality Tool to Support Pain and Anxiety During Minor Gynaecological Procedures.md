@@ -31,7 +31,7 @@ Watch a short demonstration of the mixed reality prototype designed to support p
 
 ## About Section Layout
 - Left side (visual): Reserve a space for an Anna virtual character GIF.
-- GIF placeholder path: `./Anna-virtual-character.gif`
+- GIF path: `../Source/anna-virtual-character.gif`
 - Right side (content): Study Overview, Mixed Reality explanation, devices, goals, and participation details.
 
 ## Study Overview
@@ -87,13 +87,16 @@ Approximately 20–30 minutes
 - Dr Beth Messenger — Sexual Health Aotearoa  
   beth.messenger@sexualwellbeing.org.nz
 
-- Dr Rachel Springer — Te Whatu Ora Waitaha Canterbury  
+- Cate Grace — Whānau Whanake  
+  Contact info coming soon
+
+- Dr Rachel Springer — Te Whatu Ora - Waitaha Canterbury  
   rachel.springer2@cdhb.health.nz
 
 - Lana Shields — Moana Vā  
   info@moanava.org
 
-- Dr Karen Joseph  
+- Dr Karen Joseph — Te Whatu Ora - Waitaha Canterbury  
   karenannejoseph@gmail.com
 
 ---

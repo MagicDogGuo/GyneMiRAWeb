@@ -1,16 +1,18 @@
 import './style.css';
-import otagoLogo from '../Source/UoO_Logo_RGB_Horz_Gold_REV.png';
-import aucklandLogo from '../Source/UoA-Logo-Primary-RGB-Small.png';
-import annaGif from '../Source/Anna-virtual-character.gif';
+import otagoLogo from '../Source/uoo-logo-rgb-horz-gold-rev.png';
+import aucklandLogo from '../Source/uoa-logo-primary-rgb-small.png';
+import annaGif from '../Source/anna-virtual-character.gif';
 import metaQuest3Image from '../Source/meta-quest-3.png';
-import metaQuest3sImage from '../Source/metaquest3s.png';
-import xrealOneImage from '../Source/XREALoNE.webp';
-import drJoPhoto from '../Source/Dr Jo.jpg';
-import drBronwynPhoto from '../Source/Bronwyn Lennox Thompson.jpg';
-import drBethPhoto from '../Source/Dr Beth Messenger.jpg';
-import chungHsuanPhoto from '../Source/ChungHsuan.jpg';
-import zhuangPhoto from '../Source/Zhuang-570-2.jpg';
-import markPhoto from '../Source/Mark1-570x5701.png';
+import metaQuest3sImage from '../Source/meta-quest-3s.png';
+import xrealOneImage from '../Source/xreal-one.webp';
+import drJoPhoto from '../Source/dr-jo.jpg';
+import drBronwynPhoto from '../Source/bronwyn-lennox-thompson.jpg';
+import drBethPhoto from '../Source/dr-beth-messenger.jpg';
+import lanaShieldsPhoto from '../Source/lana-shields.avif';
+import drKarenJosephPhoto from '../Source/dr-karen-joseph.jpg';
+import chungHsuanPhoto from '../Source/chung-hsuan.jpg';
+import zhuangPhoto from '../Source/zhuang-570-2.jpg';
+import markPhoto from '../Source/mark1-570x5701.png';
 
 const annaGifPath = annaGif;
 const youtubeEmbedUrl = 'https://www.youtube.com/embed/Do-Pp7nUHbQ?si=wcmJ77Q_3CxQgK3i';
@@ -35,24 +37,30 @@ const teamMembers = [
   },
   {
     name: 'Dr Beth Messenger',
-    institution: 'Partner',
+    institution: 'Partner - Sexual Health Aotearoa',
     email: 'beth.messenger@sexualwellbeing.org.nz',
     photo: drBethPhoto
   },
   {
+    name: 'Cate Grace',
+    institution: 'Partner - Whānau Whanake'
+  },
+  {
     name: 'Dr Rachel Springer',
-    institution: 'Partner',
+    institution: 'Partner - Te Whatu Ora - Waitaha Canterbury',
     email: 'rachel.springer2@cdhb.health.nz'
   },
   {
     name: 'Lana Shields',
-    institution: 'Partner',
-    email: 'info@moanava.org'
+    institution: 'Partner - Moana Vā',
+    email: 'info@moanava.org',
+    photo: lanaShieldsPhoto
   },
   {
     name: 'Dr Karen Joseph',
-    institution: 'Partner',
-    email: 'karenannejoseph@gmail.com'
+    institution: 'Partner - Te Whatu Ora - Waitaha Canterbury',
+    email: 'karenannejoseph@gmail.com',
+    photo: drKarenJosephPhoto
   },
   {
     name: 'Chung-Hsuan Kuo',
@@ -100,7 +108,11 @@ const createTeamCards = (members) =>
               <span>${member.institution}</span>
             </div>
           </div>
-          <a class="profile-mail" href="mailto:${member.email}">${member.email}</a>
+          ${
+            member.email
+              ? `<a class="profile-mail" href="mailto:${member.email}">${member.email}</a>`
+              : `<span class="profile-mail placeholder">Contact info coming soon</span>`
+          }
         </article>
       `
     )
