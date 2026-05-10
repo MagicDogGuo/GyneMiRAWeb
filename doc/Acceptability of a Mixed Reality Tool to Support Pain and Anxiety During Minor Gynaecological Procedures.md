@@ -15,20 +15,41 @@
 A research study exploring how mixed reality technology may support comfort, breathing, and anxiety management during outpatient gynaecological procedures.
 
 ### Navigation
-- Home
 - About the Study
 - Research Team
 - Contact
 
 ---
+# See the Mixed Reality Experience (YT video)
+
+Watch a short demonstration of the mixed reality prototype designed to support pain and anxiety management during outpatient gynaecological procedures.
+
+
+---
 
 # About the Study
+
+## About Section Layout
+- Left side (visual): Reserve a space for an Anna virtual character GIF.
+- GIF placeholder path: `./Anna-virtual-character.gif`
+- Right side (content): Study Overview, Mixed Reality explanation, devices, goals, and participation details.
 
 ## Study Overview
 This study explores the acceptability and feasibility of a mixed reality (MR) tool designed to support pain and anxiety management during minor gynaecological procedures.
 
 ## What is Mixed Reality?
 The MR experience uses a headset that overlays a virtual avatar coach into the real clinical environment, guiding users through calming breathing exercises while still allowing interaction with clinicians.
+
+## Devices Used
+This study uses the following mixed reality and augmented reality devices:
+- Meta Quest 3
+- Meta Quest 3S
+- XREAL One AR glasses
+
+### Device Image
+- Meta Quest 3
+- Meta Quest 3S
+- XREAL One AR glasses
 
 ## Study Goals
 - Understand participant experiences
