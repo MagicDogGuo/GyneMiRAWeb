@@ -6,12 +6,15 @@ import annaGif from '../Source/Anna-virtual-character.gif';
 import metaQuest3Image from '../Source/meta-quest-3.webp';
 import metaQuest3sImage from '../Source/meta-quest-3s.webp';
 import xrealOneImage from '../Source/xreal-one.webp';
+import questViewImage from '../Source/questview.JPG';
+import xrealViewImage from '../Source/xrealview.JPEG';
 import drJoPhoto from '../Source/dr-jo.jpg';
 import drBronwynPhoto from '../Source/bronwyn-lennox-thompson.jpg';
 import drBethPhoto from '../Source/dr-beth-messenger.jpg';
 import cateGracePhoto from '../Source/cate-grace.jpg';
 import lanaShieldsPhoto from '../Source/lana-shields.avif';
 import drKarenJosephPhoto from '../Source/dr-karen-joseph.jpg';
+import drRachelSpringerPhoto from '../Source/dr-rachel-springer.png';
 import chungHsuanPhoto from '../Source/chung-hsuan.jpg';
 import zhuangPhoto from '../Source/Zhuang-570-2.jpg';
 import markPhoto from '../Source/Mark1-570x5701.png';
@@ -51,7 +54,8 @@ const teamMembers = [
   {
     name: 'Dr Rachel Springer',
     institution: 'Partner - Te Whatu Ora - Waitaha Canterbury',
-    email: 'rachel.springer2@cdhb.health.nz'
+    email: 'rachel.springer2@cdhb.health.nz',
+    photo: drRachelSpringerPhoto
   },
   {
     name: 'Lana Shields',
@@ -216,40 +220,73 @@ document.querySelector('#app').innerHTML = `
                 </ul>
               </article>
               <article class="card">
-                <h3>Participation</h3>
-                <p>Participants will:</p>
+                <h3>Focus Group Insights</h3>
                 <ul>
-                  <li>Trial the MR prototype</li>
-                  <li>Experience a guided breathing exercise</li>
-                  <li>Share feedback through a short interview</li>
+                  <li>
+                    <strong>Personalized Support:</strong>
+                    Tailored interventions for diverse patient needs.
+                  </li>
+                  <li>
+                    <strong>Patient Agency:</strong>
+                    Empowering patients with greater control via MR.
+                  </li>
+                  <li>
+                    <strong>Collaborative Co-Design:</strong>
+                    Built with insights from clinicians and consumers.
+                  </li>
+                  <li>
+                    <strong>Clinical Integration:</strong>
+                    Designed to fit seamlessly into medical workflows.
+                  </li>
+                  <li>
+                    <strong>Evidence-Based Refinement:</strong>
+                    Optimized through direct user feedback.
+                  </li>
                 </ul>
-                <p class="duration">Session Duration: Approximately 20-30 minutes</p>
               </article>
             </div>
-            <article class="card">
-              <h3>Devices Used</h3>
-              <p>This study uses the following mixed reality and augmented reality devices:</p>
-              <ul>
-                <li>Meta Quest 3</li>
-                <li>Meta Quest 3S</li>
-                <li>XREAL One AR glasses</li>
-              </ul>
-              <div class="device-grid" aria-label="Device images">
-                <figure class="device-item">
-                  <img class="device-image" src="${metaQuest3Image}" alt="Meta Quest 3 headset" loading="lazy" />
-                  <figcaption>Meta Quest 3</figcaption>
-                </figure>
-                <figure class="device-item">
-                  <img class="device-image" src="${metaQuest3sImage}" alt="Meta Quest 3S headset" loading="lazy" />
-                  <figcaption>Meta Quest 3S</figcaption>
-                </figure>
-                <figure class="device-item">
-                  <img class="device-image" src="${xrealOneImage}" alt="XREAL One AR glasses" loading="lazy" />
-                  <figcaption>XREAL One AR glasses</figcaption>
-                </figure>
-              </div>
-            </article>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="devices">
+      <div class="container">
+        <h2>Devices Used</h2>
+        <p class="devices-intro">
+          This study uses the following mixed reality and augmented reality devices.
+        </p>
+        <div class="device-grid" aria-label="Device images">
+          <figure class="device-item">
+            <div class="device-image-stack">
+              <img class="device-image default-image" src="${metaQuest3Image}" alt="Meta Quest 3 headset" loading="lazy" />
+              <img class="device-image hover-image" src="${questViewImage}" alt="Meta Quest 3 in-use view" loading="lazy" />
+            </div>
+            <figcaption>Meta Quest 3</figcaption>
+            <p class="device-note">
+              Great center of gravity and clear passthrough; however, remains front-heavy during long sessions.
+            </p>
+          </figure>
+          <figure class="device-item">
+            <div class="device-image-stack">
+              <img class="device-image default-image" src="${metaQuest3sImage}" alt="Meta Quest 3S headset" loading="lazy" />
+              <img class="device-image hover-image" src="${questViewImage}" alt="Meta Quest 3S in-use view" loading="lazy" />
+            </div>
+            <figcaption>Meta Quest 3S</figcaption>
+            <p class="device-note">
+              Stable weight distribution; but bulkier with a narrower visual sweet spot.
+            </p>
+          </figure>
+          <figure class="device-item">
+            <div class="device-image-stack">
+              <img class="device-image default-image" src="${xrealOneImage}" alt="XREAL One AR glasses" loading="lazy" />
+              <img class="device-image hover-image" src="${xrealViewImage}" alt="XREAL One in-use view" loading="lazy" />
+            </div>
+            <figcaption>XREAL One AR glasses</figcaption>
+            <p class="device-note">
+              Ultra-light and non-intrusive; but offers a limited field of view and requires a wired connection.
+            </p>
+          </figure>
         </div>
       </div>
     </section>
