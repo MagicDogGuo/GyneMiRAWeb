@@ -1,7 +1,7 @@
 import './style.css';
 import otagoLogo from '../Source/uoo-logo-rgb-horz-gold-rev.png';
-import aucklandLogo from '../Source/uoa-logo-primary-rgb-small.png';
-import annaGif from '../Source/anna-virtual-character.gif';
+import aucklandLogo from '../Source/UoA-Logo-Primary-RGB-Small.png';
+import annaGif from '../Source/Anna-virtual-character.gif';
 import metaQuest3Image from '../Source/meta-quest-3.png';
 import metaQuest3sImage from '../Source/meta-quest-3s.png';
 import xrealOneImage from '../Source/xreal-one.webp';
@@ -11,8 +11,8 @@ import drBethPhoto from '../Source/dr-beth-messenger.jpg';
 import lanaShieldsPhoto from '../Source/lana-shields.avif';
 import drKarenJosephPhoto from '../Source/dr-karen-joseph.jpg';
 import chungHsuanPhoto from '../Source/chung-hsuan.jpg';
-import zhuangPhoto from '../Source/zhuang-570-2.jpg';
-import markPhoto from '../Source/mark1-570x5701.png';
+import zhuangPhoto from '../Source/Zhuang-570-2.jpg';
+import markPhoto from '../Source/Mark1-570x5701.png';
 
 const annaGifPath = annaGif;
 const youtubeEmbedUrl = 'https://www.youtube.com/embed/Do-Pp7nUHbQ?si=wcmJ77Q_3CxQgK3i';

@@ -31,7 +31,7 @@ Watch a short demonstration of the mixed reality prototype designed to support p
 
 ## About Section Layout
 - Left side (visual): Reserve a space for an Anna virtual character GIF.
-- GIF path: `../Source/anna-virtual-character.gif`
+- GIF path: `../Source/Anna-virtual-character.gif`
 - Right side (content): Study Overview, Mixed Reality explanation, devices, goals, and participation details.
 
 ## Study Overview
