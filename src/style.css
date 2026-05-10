@@ -138,6 +138,10 @@ h1 {
   padding: 4rem 0;
 }
 
+#about {
+  background: #ffffff;
+}
+
 .section-intro {
   color: var(--muted);
   max-width: 760px;
