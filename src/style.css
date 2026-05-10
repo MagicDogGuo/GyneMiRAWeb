@@ -103,6 +103,19 @@ a {
   padding: 3.5rem 0 0;
 }
 
+.hero-title-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero-project-logo {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -405,6 +418,15 @@ footer p {
 
   .nav-links {
     flex-wrap: wrap;
+  }
+
+  .hero-title-row {
+    align-items: flex-start;
+  }
+
+  .hero-project-logo {
+    width: 56px;
+    height: 56px;
   }
 
   .content-grid {

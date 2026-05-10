@@ -1,18 +1,20 @@
 import './style.css';
 import otagoLogo from '../Source/uoo-logo-rgb-horz-gold-rev.png';
-import aucklandLogo from '../Source/UoA-Logo-Primary-RGB-Small.png';
-import annaGif from '../Source/Anna-virtual-character.gif';
-import metaQuest3Image from '../Source/meta-quest-3.png';
-import metaQuest3sImage from '../Source/meta-quest-3s.png';
+import aucklandLogo from '../Source/uoa-logo-primary-rgb-small.png';
+import projectLogo from '../Source/logo.png';
+import annaGif from '../Source/anna-virtual-character.gif';
+import metaQuest3Image from '../Source/meta-quest-3.webp';
+import metaQuest3sImage from '../Source/meta-quest-3s.webp';
 import xrealOneImage from '../Source/xreal-one.webp';
 import drJoPhoto from '../Source/dr-jo.jpg';
 import drBronwynPhoto from '../Source/bronwyn-lennox-thompson.jpg';
 import drBethPhoto from '../Source/dr-beth-messenger.jpg';
+import cateGracePhoto from '../Source/cate-grace.jpg';
 import lanaShieldsPhoto from '../Source/lana-shields.avif';
 import drKarenJosephPhoto from '../Source/dr-karen-joseph.jpg';
 import chungHsuanPhoto from '../Source/chung-hsuan.jpg';
-import zhuangPhoto from '../Source/Zhuang-570-2.jpg';
-import markPhoto from '../Source/Mark1-570x5701.png';
+import zhuangPhoto from '../Source/zhuang-570-2.jpg';
+import markPhoto from '../Source/mark1-570x5701.png';
 
 const annaGifPath = annaGif;
 const youtubeEmbedUrl = 'https://www.youtube.com/embed/Do-Pp7nUHbQ?si=wcmJ77Q_3CxQgK3i';
@@ -43,7 +45,8 @@ const teamMembers = [
   },
   {
     name: 'Cate Grace',
-    institution: 'Partner - Whānau Whanake'
+    institution: 'Partner - Whānau Whanake',
+    photo: cateGracePhoto
   },
   {
     name: 'Dr Rachel Springer',
@@ -139,7 +142,10 @@ document.querySelector('#app').innerHTML = `
     </div>
     <div class="container hero">
       <p class="eyebrow">Research Study</p>
-      <h1>Acceptability of a Mixed Reality Tool to Support Pain and Anxiety During Minor Gynaecological Procedures</h1>
+      <div class="hero-title-row">
+        <img class="hero-project-logo" src="${projectLogo}" alt="Project logo" />
+        <h1>Acceptability of a Mixed Reality Tool to Support Pain and Anxiety During Minor Gynaecological Procedures</h1>
+      </div>
       <p class="subtitle">
         A research study exploring how mixed reality technology may support comfort, breathing,
         and anxiety management during outpatient gynaecological procedures.
@@ -187,18 +193,39 @@ document.querySelector('#app').innerHTML = `
             <article class="card">
               <h3>Study Overview</h3>
               <p>
-                This study explores the acceptability and feasibility of a mixed reality (MR) tool
-                designed to support pain and anxiety management during minor gynaecological procedures.
+                This study addresses the common issues of pain and anxiety experienced during
+                outpatient gynecological procedures, such as intrauterine device (IUD) insertion,
+                hysteroscopy, and colposcopy. While non-pharmacological interventions like breathing
+                exercises and relaxation have proven effective, they are not routinely offered due to
+                limitations in clinical time and the specific skills required from clinicians. The
+                core objective of this research is to evaluate the acceptability and feasibility of a
+                newly developed mixed reality (MR) prototype. This system utilizes an avatar coach to
+                guide patients through support interventions, such as breathing exercises, while
+                allowing them to maintain interaction with their treating clinician in the physical
+                environment.
               </p>
             </article>
-            <article class="card">
-              <h3>What is Mixed Reality?</h3>
-              <p>
-                The MR experience uses a headset that overlays a virtual avatar coach into the real
-                clinical environment, guiding users through calming breathing exercises while still
-                allowing interaction with clinicians.
-              </p>
-            </article>
+            <div class="content-grid">
+              <article class="card">
+                <h3>Study Goals</h3>
+                <ul>
+                  <li>Understand participant experiences</li>
+                  <li>Evaluate usability and comfort</li>
+                  <li>Explore potential clinical integration</li>
+                  <li>Investigate anxiety and pain support strategies</li>
+                </ul>
+              </article>
+              <article class="card">
+                <h3>Participation</h3>
+                <p>Participants will:</p>
+                <ul>
+                  <li>Trial the MR prototype</li>
+                  <li>Experience a guided breathing exercise</li>
+                  <li>Share feedback through a short interview</li>
+                </ul>
+                <p class="duration">Session Duration: Approximately 20-30 minutes</p>
+              </article>
+            </div>
             <article class="card">
               <h3>Devices Used</h3>
               <p>This study uses the following mixed reality and augmented reality devices:</p>
@@ -222,27 +249,6 @@ document.querySelector('#app').innerHTML = `
                 </figure>
               </div>
             </article>
-            <div class="content-grid">
-              <article class="card">
-                <h3>Study Goals</h3>
-                <ul>
-                  <li>Understand participant experiences</li>
-                  <li>Evaluate usability and comfort</li>
-                  <li>Explore potential clinical integration</li>
-                  <li>Investigate anxiety and pain support strategies</li>
-                </ul>
-              </article>
-              <article class="card">
-                <h3>Participation</h3>
-                <p>Participants will:</p>
-                <ul>
-                  <li>Trial the MR prototype</li>
-                  <li>Experience a guided breathing exercise</li>
-                  <li>Share feedback through a short interview</li>
-                </ul>
-                <p class="duration">Session Duration: Approximately 20-30 minutes</p>
-              </article>
-            </div>
           </div>
         </div>
       </div>
