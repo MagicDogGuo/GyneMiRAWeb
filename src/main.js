@@ -23,6 +23,17 @@ import content from './content.json';
 const annaGifPath = annaGif;
 const { youtubeEmbedUrl } = content;
 
+const faviconLink =
+  document.querySelector("link[rel='icon']") ??
+  document.querySelector("link[rel='shortcut icon']") ??
+  document.createElement('link');
+faviconLink.rel = 'icon';
+faviconLink.type = 'image/png';
+faviconLink.href = projectLogo;
+if (!faviconLink.parentElement) {
+  document.head.appendChild(faviconLink);
+}
+
 const teamPhotoMap = {
   drJoPhoto,
   drBronwynPhoto,
