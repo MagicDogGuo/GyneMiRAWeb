@@ -2,6 +2,7 @@ import './style.css';
 import otagoLogo from '../Source/uoo-logo-rgb-horz-gold-rev.png';
 import aucklandLogo from '../Source/UoA-Logo-Primary-RGB-Small.png';
 import projectLogo from '../Source/logo.png';
+import moAvatar from '../Source/mo-avator.png';
 import annaGif from '../Source/Anna-virtual-character.gif';
 import metaQuest3Image from '../Source/meta-quest-3.webp';
 import metaQuest3sImage from '../Source/meta-quest-3s.webp';
@@ -151,6 +152,7 @@ document.querySelector('#app').innerHTML = `
       </nav>
     </div>
     <div class="container hero">
+      <img class="hero-bg-avatar" src="${moAvatar}" alt="" loading="lazy" aria-hidden="true" />
       <p class="eyebrow">${content.hero.eyebrow}</p>
       <div class="hero-title-row">
         <img class="hero-project-logo" src="${projectLogo}" alt="Project logo" />

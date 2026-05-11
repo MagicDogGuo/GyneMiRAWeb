@@ -113,7 +113,26 @@ a {
 }
 
 .hero {
+  position: relative;
   padding: 3.5rem 0 0;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-bg-avatar {
+  position: absolute;
+  right: -3rem;
+  bottom: -4.5rem;
+  width: min(46vw, 520px);
+  height: auto;
+  object-fit: contain;
+  opacity: 0.2;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
 }
 
 .hero-title-row {
@@ -494,6 +513,13 @@ footer p {
 
   .hero-title-row {
     align-items: flex-start;
+  }
+
+  .hero-bg-avatar {
+    right: -4rem;
+    bottom: -4.5rem;
+    width: min(70vw, 420px);
+    opacity: 0.16;
   }
 
   .hero-project-logo {
