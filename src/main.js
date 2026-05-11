@@ -183,6 +183,7 @@ document.querySelector('#app').innerHTML = `
         <div class="about-layout">
           <aside class="anna-visual">
             <img src="${annaGifPath}" alt="Anna virtual character demonstration" loading="lazy" />
+            <p class="anna-caption">${content.about.annaCaption}</p>
           </aside>
           <div class="about-content">
             <article class="card">
