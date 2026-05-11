@@ -124,11 +124,6 @@ const createTeamCards = (members) =>
               <span>${member.institution}</span>
             </div>
           </div>
-          ${
-            member.email
-              ? `<a class="profile-mail" href="mailto:${member.email}">${member.email}</a>`
-              : `<span class="profile-mail placeholder">${content.team.contactInfoPending}</span>`
-          }
         </article>
       `;
     })
