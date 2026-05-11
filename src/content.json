@@ -107,9 +107,10 @@
         "photoKey": "drBronwynPhoto"
       },
       {
-        "name": "Dea Dauphinee PhD",
+        "name": "Dr Dea Dauphinee",
         "institution": "University of Otago",
-        "email": "dea.dauphinee@otago.ac.nz"
+        "email": "dea.dauphinee@otago.ac.nz",
+        "photoKey": "drDeaPhoto"
       },
       {
         "name": "Dr Beth Messenger",

@@ -10,6 +10,7 @@ import questViewImage from '../Source/questview.JPG';
 import xrealViewImage from '../Source/xrealview.JPEG';
 import drJoPhoto from '../Source/dr-jo.jpg';
 import drBronwynPhoto from '../Source/bronwyn-lennox-thompson.jpg';
+import drDeaPhoto from '../Source/dr-dea.jpeg';
 import drBethPhoto from '../Source/dr-beth-messenger.jpg';
 import cateGracePhoto from '../Source/cate-grace.jpg';
 import lanaShieldsPhoto from '../Source/lana-shields.avif';
@@ -37,6 +38,7 @@ if (!faviconLink.parentElement) {
 const teamPhotoMap = {
   drJoPhoto,
   drBronwynPhoto,
+  drDeaPhoto,
   drBethPhoto,
   cateGracePhoto,
   lanaShieldsPhoto,
