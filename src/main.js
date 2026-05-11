@@ -250,7 +250,6 @@ document.querySelector('#app').innerHTML = `
           ${content.contact.description}
         </p>
         <p>
-          <strong>${content.contact.teamName}</strong><br />
           <a href="mailto:${content.contact.email}">
             ${content.contact.email}
           </a>
