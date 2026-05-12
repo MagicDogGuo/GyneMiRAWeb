@@ -482,6 +482,19 @@ h3 {
   margin-top: 1rem;
 }
 
+.contact-logo-wrap {
+  margin-top: 1.2rem;
+  display: none;
+  justify-content: center;
+}
+
+.contact-logo-image {
+  width: min(112px, 18.4vw);
+  height: auto;
+  display: block;
+  filter: grayscale(1) brightness(0);
+}
+
 footer {
   border-top: 1px solid var(--border);
   background: #fff;

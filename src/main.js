@@ -1,6 +1,7 @@
 import './style.css';
 import otagoLogo from '../Source/uoo-logo-rgb-horz-gold-rev.png';
 import aucklandLogo from '../Source/UoA-Logo-Primary-RGB-Small.png';
+import brandLogo from '../Source/logo.png';
 import moAvatar from '../Source/mo-avator.png';
 import demoImage from '../Source/demo.gif';
 import annaGif from '../Source/Anna-virtual-character.gif';
@@ -248,6 +249,9 @@ document.querySelector('#app').innerHTML = `
             ${content.contact.email}
           </a>
         </p>
+      </div>
+      <div class="container contact-logo-wrap">
+        <img class="contact-logo-image" src="${brandLogo}" alt="GyneMiRA logo" loading="lazy" />
       </div>
     </section>
   </main>
