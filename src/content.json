@@ -28,35 +28,35 @@
     "title": "About the Study",
     "annaCaption": "Hi, I am Anna. How are you?",
     "overviewTitle": "Study Overview",
-    "overviewText": "This study addresses the common issues of pain and anxiety experienced during outpatient gynecological procedures, such as intrauterine device (IUD) insertion, hysteroscopy, and colposcopy. While non-pharmacological interventions like breathing exercises and relaxation have proven effective, they are not routinely offered due to limitations in clinical time and the specific skills required from clinicians. The core objective of this research is to evaluate the acceptability and feasibility of a newly developed mixed reality (MR) prototype. This system utilizes an avatar coach to guide patients through support interventions, such as breathing exercises, while allowing them to maintain interaction with their treating clinician in the physical environment.",
+    "overviewText": "This study addresses the common issues of pain and anxiety experienced during outpatient gynecological procedures, such as intrauterine device (IUD) insertion, hysteroscopy, and colposcopy. While non-pharmacological interventions like breathing exercises and relaxation have been shown to be effective in managing stress and anxiety related to these procedures, they are not routinely offered due to limitations in clinical time and the specific skills required from clinicians. The core objective of this research is to evaluate the acceptability and feasibility of a newly developed mixed reality (MR) prototype. This system utilizes a virtual support character to guide patients through research-backed stress-management interventions such as breathing exercises or distraction techniques while allowing the patient to maintain interaction with their treating clinician in the physical environment.",
     "goalsTitle": "Study Goals",
     "goals": [
-      "Understand participant experiences",
-      "Evaluate usability and comfort",
-      "Explore potential clinical integration",
-      "Investigate anxiety and pain support strategies"
+      "Understand clinician and patient experiences",
+      "Evaluate usability and comfort of MR devices",
+      "Explore feasibility in a clinical setting",
+      "Investigate effectiveness of support strategies delivered by MR"
     ],
     "insightsTitle": "Focus Group Insights",
     "insights": [
       {
         "title": "Personalized Support",
-        "description": "Tailored interventions for diverse patient needs."
+        "description": "Offers a self-selected virtual character for cultural relevance."
       },
       {
         "title": "Patient Agency",
-        "description": "Empowering patients with greater control via MR."
+        "description": "Empowers patients with tailored interventions."
       },
       {
         "title": "Collaborative Co-Design",
-        "description": "Built with insights from clinicians and consumers."
+        "description": "Built with insights from clinicians, consumers, and Māori and Pacific partners."
       },
       {
         "title": "Clinical Integration",
-        "description": "Designed to fit seamlessly into medical workflows."
+        "description": "Designed for easy use in clinical settings."
       },
       {
         "title": "Evidence-Based Refinement",
-        "description": "Optimized through direct user feedback."
+        "description": "Optimized with ongoing testing and feedback."
       }
     ]
   },

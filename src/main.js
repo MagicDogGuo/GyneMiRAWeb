@@ -1,8 +1,8 @@
 import './style.css';
 import otagoLogo from '../Source/uoo-logo-rgb-horz-gold-rev.png';
 import aucklandLogo from '../Source/UoA-Logo-Primary-RGB-Small.png';
-import projectLogo from '../Source/logo.png';
 import moAvatar from '../Source/mo-avator.png';
+import demoImage from '../Source/demo.png';
 import annaGif from '../Source/Anna-virtual-character.gif';
 import metaQuest3Image from '../Source/meta-quest-3.webp';
 import metaQuest3sImage from '../Source/meta-quest-3s.webp';
@@ -23,7 +23,6 @@ import markPhoto from '../Source/Mark1-570x5701.png';
 import content from './content.json';
 
 const annaGifPath = annaGif;
-const { youtubeEmbedUrl } = content;
 
 const faviconLink =
   document.querySelector("link[rel='icon']") ??
@@ -31,7 +30,7 @@ const faviconLink =
   document.createElement('link');
 faviconLink.rel = 'icon';
 faviconLink.type = 'image/png';
-faviconLink.href = projectLogo;
+faviconLink.href = otagoLogo;
 if (!faviconLink.parentElement) {
   document.head.appendChild(faviconLink);
 }
@@ -150,7 +149,6 @@ document.querySelector('#app').innerHTML = `
       <img class="hero-bg-avatar" src="${moAvatar}" alt="" loading="lazy" aria-hidden="true" />
       <p class="eyebrow">${content.hero.eyebrow}</p>
       <div class="hero-title-row">
-        <img class="hero-project-logo" src="${projectLogo}" alt="Project logo" />
         <h1>${content.hero.title}</h1>
       </div>
       <p class="subtitle">
@@ -168,21 +166,7 @@ document.querySelector('#app').innerHTML = `
           ${content.experience.intro}
         </p>
         <div class="video-shell">
-          ${
-            youtubeEmbedUrl
-              ? `<iframe
-                  src="${youtubeEmbedUrl}"
-                  title="${content.experience.videoTitle}"
-                  loading="lazy"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>`
-              : `<div class="video-placeholder">
-                  <p>${content.experience.placeholderTitle}</p>
-                  <p class="helper-text">${content.experience.placeholderHint}</p>
-                </div>`
-          }
+          <img src="${demoImage}" alt="${content.experience.videoTitle}" loading="lazy" />
         </div>
       </div>
     </section>

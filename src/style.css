@@ -138,14 +138,6 @@ a {
 .hero-title-row {
   display: flex;
   align-items: center;
-  gap: 1rem;
-}
-
-.hero-project-logo {
-  width: 110px;
-  height: 110px;
-  object-fit: contain;
-  flex: 0 0 auto;
 }
 
 .eyebrow {
@@ -230,9 +222,15 @@ h3 {
 }
 
 .video-shell iframe,
+.video-shell img,
 .video-placeholder {
   width: 100%;
   height: 100%;
+}
+
+.video-shell img {
+  object-fit: cover;
+  display: block;
 }
 
 .video-placeholder {
@@ -520,11 +518,6 @@ footer p {
     bottom: -4.5rem;
     width: min(70vw, 420px);
     opacity: 0.16;
-  }
-
-  .hero-project-logo {
-    width: 92px;
-    height: 92px;
   }
 
   .content-grid {
