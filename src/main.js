@@ -248,7 +248,18 @@ document.querySelector('#app').innerHTML = `
         <p>
           ${content.contact.description}
         </p>
+        ${
+          content.contact.joEmail
+            ? `<p>
+                Jo:
+                <a href="mailto:${content.contact.joEmail}">
+                  ${content.contact.joEmail}
+                </a>
+              </p>`
+            : ''
+        }
         <p>
+          Dea:
           <a href="mailto:${content.contact.email}">
             ${content.contact.email}
           </a>
