@@ -2,7 +2,7 @@ import './style.css';
 import otagoLogo from '../Source/uoo-logo-rgb-horz-gold-rev.png';
 import aucklandLogo from '../Source/UoA-Logo-Primary-RGB-Small.png';
 import moAvatar from '../Source/mo-avator.png';
-import demoImage from '../Source/demo.png';
+import demoImage from '../Source/demo.gif';
 import annaGif from '../Source/Anna-virtual-character.gif';
 import metaQuest3Image from '../Source/meta-quest-3.webp';
 import metaQuest3sImage from '../Source/meta-quest-3s.webp';
