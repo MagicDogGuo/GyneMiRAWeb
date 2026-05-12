@@ -17,7 +17,7 @@ import drBethPhoto from '../Source/dr-beth-messenger.jpg';
 import cateGracePhoto from '../Source/cate-grace.jpg';
 import lanaShieldsPhoto from '../Source/lana-shields.avif';
 import drKarenJosephPhoto from '../Source/dr-karen-joseph.jpg';
-import drRachelSpringerPhoto from '../Source/dr-rachel-springer.svg';
+import drRachelSpringerPhoto from '../Source/dr-rachel-springer.jpeg';
 import chungHsuanPhoto from '../Source/chung-hsuan.jpg';
 import zhuangPhoto from '../Source/Zhuang-570-2.jpg';
 import markPhoto from '../Source/Mark1-570x5701.png';
